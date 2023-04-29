@@ -79,7 +79,11 @@ textarea {
   margin-top: 1.5em;
   font-size: 0.7em;
   text-align: center;
-  color: #38c5c5; }
+  color: #38c5c5; 
+position: fixed;
+bottom: 0px;
+}
+
   #site-info a {
     color: #eeeeee; }
 
