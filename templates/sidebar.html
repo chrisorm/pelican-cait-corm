@@ -15,9 +15,11 @@
             {% endfor %}
             {% endif %}
         </ul>
+        <ul id="socials">
                 {% for title, url in SOCIAL %}
-                    <a href="{{ url }}" target="{{title}}"><i class="icon-{{ title }} svc-badge"></i></a>
+                <li><a href="{{ url }}" target="{{title}}"><i class="icon-{{ title }} svc-badge"></i></a></li>
                 {% endfor %}
+        </ul>
 
     </nav>
     {% include "footer.html" %}
