@@ -246,3 +246,19 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+    ul#social{
+  justify-content: center;
+}
+
+ul#socials > li {
+    display: inline-block;
+        height: 30px;
+        margin: 0px 10px;
+    /* You can also add some margins here to make it look prettier */
+}
+
+
+li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"]{
+  font-size: 50px;
+}
